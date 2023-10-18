@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templete de E-mail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="global"
+        style="display: flex; flex-direction: column; align-items: center; margin: 20px; margin-left: 0%;">
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/236x/f5/d1/34/f5d13466467906c73a793f8d89efc6a1.jpg" alt="Logo Empresa" class="img"
+                style="width: 150px;">
+        </div>
+        <div>
+            <h1 id="mensagem"
+                style="margin-top: 30px; color: #ee7421; font-family: 'Kanit', sans-serif; font-weight: 400;">Prezado Time de People Recruiter,
+                            </h1>
+            <p style="color: black;  font-family: 'Kanit', sans-serif; font-weight: 100; ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur qui ducimus obcaecati laborum unde, deserunt quis excepturi, numquam soluta quibusdam est nemo at voluptate dolore tenetur officiis, quidem illum. Magni.</p>
+            <b style="font-size: 19px;">Informações do Candidato:</b>
+            <ul style="list-style: none; font-family: 'Kanit', sans-serif; font-weight: 400;">
+              <li">Vaga:</li>
+              <li>Nome:</li>
+              <li>Cidade:</li>
+              <li>Data de Nascimento:</li>
+              <li>Telefone Principal:</li>
+              <li>Telefone Secundário:</li>
+              <li>E-mail: </li>
+              <!-- <li><span style="font-weight: 400;">Vaga:</span> {{titleVaga}} - {{idVaga}}</li> -->
+            </ul>
+            <p style="font-family: 'Kanit', sans-serif; font-weight: 100;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt necessitatibus assumenda quis id quia molestias molestiae repudiandae repellendus? Est nostrum unde ipsam labore sint non, ducimus sequi doloremque adipisci ratione.</p>
+    <p class="p-att" style="margin-top: 10px; font-family: 'Kanit', sans-serif; font-weight: 100;">Atenciosamente, <span>Empresa</span></p>
+            </div>
+        </div>
+    </section>
+   
+    <script>
+        var nome = "";
+        var mensagemElement = document.getElementById("mensagem");
+        var mensagem = "Olá " + nome;
+        mensagemElement.textContent = mensagem;
+    </script>
+</body>
+</html>
